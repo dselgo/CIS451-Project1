@@ -1,5 +1,6 @@
 cd C:\Users\Katie\Documents\GitHub\Project1\CIS451-Project1
 
+CLA Adder
 jlsCircuitTester Signed_CLA_AdderSubtractor_16bit.jls testAddSubtract_16bit
 All tests passed - time:245
 
@@ -9,6 +10,16 @@ All tests passed time: 14435
 jlsCircuitTester CLA_Adder_16bit.jls testSignedFullAdder_16bit
 All tests passed time: 210
 
+
+Prefix Adder
+jlsCircuitTester Signed_Prefix_AdderSubtractor_16bit.jls testAddSubtract_16bit
+all tests passed time: 155
+
+jlsCircuitTester ALU_Prefix_16bit.jls testALU_16bit
+
+jlsCircuitTester CLA_Adder_16bit.jls testSignedFullAdder_16bit
+All tests passed time: 210
+
+Multiplier
 jlsCircuitTester signedMultiplier_16bit.jls testSignedMultiplier_16bit
 All tests passed timeL 14430
-
