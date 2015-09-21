@@ -51,19 +51,19 @@ BEGIN mult_overflow2
 
 BEGIN less_than_signed
   INPUTS
-    InputA SIGNED(16) 5
-    InputB SIGNED(16) [-1, 4, 6]
+    InputA SIGNED(16) [1, -1]
+    InputB SIGNED(16) [0, 4, -6]
     Op 6
   OUTPUTS
-    Output [0, 0, 1]
-    Overflow 0
+    Output [0, 1, 0, 1,1,0]
+    Overflow [0,0,0,0,0,0]
 
 BEGIN less_than_unsigned
   INPUTS
-    InputA 5
-    InputB [1, 4, 6]
+    InputA SIGNED(16) [1, -1]
+    InputB SIGNED(16) [0, 4, -6]
     Op 7
   OUTPUTS
-    Output [0, 0, 1]
-    Overflow 0
+    Output [0, 1, 1, 0,0,0 ]
+    Overflow [0,0,0,0,0,0]
 

@@ -14,10 +14,10 @@ OUTPUT_SET_TYPE SHARED AddSubtractOutputSet
 
 NAMED_VALUE_LISTS
   # The sum of any two lowPositive or lowNegative values will not overflow
-  lowPositive SIGNED(16) [ 0, 1,  2^14 - 1 ]
-  lowNegative SIGNED(16) [ -1, -2, -2^14 + 1 ]
-  allPositive SIGNED(16) [ lowPositive, 2^15 - 2, 2^15 - 1 ]
-  allNegative SIGNED(16) [ lowNegative, -2^15 + 1, -2^15 ]
+  lowPositive SIGNED(16) [ 0, 1, 2, 3, 4, 5, 6,7, 8, 9, 10, 20, 40, 80, 160, 320, 2^14 - 1]
+  lowNegative SIGNED(16) [ -1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -20, -40, -80, -160, -320, -2^14 + 1 ]
+  allPositive SIGNED(16) [ lowPositive, 2^15 - 2, 2^15 - 1, 2^15-2, 2^15-3, 2^15-4, 2^15-5 ]
+  allNegative SIGNED(16) [ lowNegative, -2^15 + 1, -2^15, -2^15 + 1, -2^15+2, -2^15+3, -2^15+4, -2^15+5 ]
 
 ###################
 #
