@@ -12,14 +12,14 @@ All tests passed time: 210
 
 
 Prefix Adder
-jlsCircuitTester Signed_Prefix_AdderSubtractor_16bit.jls testAddSubtract_16bit
+jlsCircuitTester SignedAddSubtract_16bit.jls testAddSubtract_16bit
 all tests passed time: 155
 
-jlsCircuitTester ALU_Prefix_16bit.jls testALU_16bit
+jlsCircuitTester ALU_16bit.jls testALU_16bit
 
-jlsCircuitTester CLA_Adder_16bit.jls testSignedFullAdder_16bit
+jlsCircuitTester SignedFullAdder_16bit.jls testSignedFullAdder_16bit
 All tests passed time: 210
 
 Multiplier
-jlsCircuitTester signedMultiplier_16bit.jls testSignedMultiplier_16bit
+jlsCircuitTester SignedMultiplier_16bit.jls testSignedMultiplier_16bit
 All tests passed timeL 14430
